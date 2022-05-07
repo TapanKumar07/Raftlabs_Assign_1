@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <div> ALL MAGZINES </div>
+
+    <% for(var i = 0;i< data.length ;i++) { %>
+         <% title = data[i].title %>
+         <% isbn = data[i].isbn %>
+         <% authors = data[i].authors %>
+         <% pub = data[i].publishedAt %>
+          <div> Title : <%=title %> </div>
+          <div> ISBN  : <%=isbn %> </div>
+          <div> Authors : <%=authors %> </div>
+          <div> publishedAt : <%=pub %> </div>
+          <br>
+          <br>
+
+    <% } %>
+</body>
+</html>

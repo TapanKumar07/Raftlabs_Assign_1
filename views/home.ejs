@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="http://localhost:3000/createbook" method="GET">
+       <input type="submit" value="Create a New Book">
+    </form>
+
+    <form action="http://localhost:3000/createmagzine" method="GET">
+        <input type="submit" value="Create a New Magzine">
+     </form>
+    
+     <form action = "http://localhost:3000/magzineData" method="GET">
+        <input type="submit" value="Show me All Magzines">
+     </form>
+
+     <form action="http://localhost:3000/bookData" method="GET">
+        <input type="submit" value="Show me All Books">
+     </form>
+   <br>
+     <form action="http://localhost:3000/findByISBNbook" method="POST">
+      <legend> Enter ISBN : </legend>
+      <input type="text" id="isbn" name="isbn"> 
+      <input type="submit" value="Find Book by ISBN">
+     </form>
+     <br>
+     <form action="http://localhost:3000/findByISBNmagzine" method="POST">
+      <legend> Enter ISBN : </legend>
+      <input type="text" id="isbn" name="isbn"> 
+      <input type="submit" value="Find Magzine by ISBN">
+     </form>
+     
+     <br>
+         
+      <form action="http://localhost:3000/findmagByAuthor" method="POST">
+      <legend> Enter Author Mail : </legend>
+      <input type="text" id="author" name="author"> 
+      <input type="submit" value="Find Magzine by Author Email">
+     </form>
+
+     <br>
+
+     <form action="http://localhost:3000/findbookByAuthor" method="POST">
+      <legend> Enter Author Mail : </legend>
+      <input type="text" id="author" name="author"> 
+      <input type="submit" value="Find book by Author Email">
+     </form>
+     <br>
+     
+     <form action="http://localhost:3000/booksMagSorted" method="GET">
+      <input type="submit" value="Get Books and Magzines in Sorted">
+     </form>
+
+     <form action="http://localhost:3000/getcsvbookdata" method="GET">
+      <input type="submit" value="Get Book data in csv">
+     </form>
+
+     <form action="http://localhost:3000/getcsvmagzinedata" method="GET">
+      <input type="submit" value="Get magzine data in csv">
+     </form>
+
+    
+</body>
+</html>

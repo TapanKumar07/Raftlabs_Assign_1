@@ -1,0 +1,37 @@
+{
+  "name": "work",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js -e js,ejs,html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "csv-generate": "^4.0.4",
+    "csv-parse": "^5.0.4",
+    "csv-stringify": "^6.0.5",
+    "csv-transform": "^0.0.8",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "jquery-csv": "^1.0.21",
+    "json2csv": "^5.0.7",
+    "mongoose": "^6.3.1",
+    "node-csv": "^0.1.2",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TapanKumar07/raflabs_assignment_1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TapanKumar07/raflabs_assignment_1/issues"
+  },
+  "homepage": "https://github.com/TapanKumar07/raflabs_assignment_1#readme",
+  "description": ""
+}

@@ -13,6 +13,8 @@ Various Features Include
 /findbookByAuthor -> Finds a book based upon Author's Email \
 /findmagByAuthor -> Finds a magzine based upon Author's Email \
 /booksMagSorted -> Redirects to page having details of books and magzine together sorted by their titles \
+/getcsvbookdata -> Exports current data in books collection to CSV File \
+/getcsvmagdata -> Exports current data in magzines collection to CSV File \
 
 I Used EJS templating engine in this.
 
